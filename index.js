@@ -20,7 +20,7 @@
  * SOFTWARE.
  *
  */
-import { createElement as RNcreateElement } from "react-native-web";
+import { unstable_createElement as RNcreateElement } from "react-native-web";
 import PropTypes from "prop-types";
 
 function createElement(name, type) {
